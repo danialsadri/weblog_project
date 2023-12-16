@@ -1,1 +1,1 @@
-It has developed a blog web application where users can view blogs with different category filters. It used the Django framework for authentication and the backend of the project. HTML, CSS and Bootstrap are used for project design
+# weblog with django # 
