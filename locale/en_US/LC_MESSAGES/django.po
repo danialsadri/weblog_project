@@ -1,0 +1,543 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-16 14:11+0330\n"
+"PO-Revision-Date: 2023-09-06 12:34+0330\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\blog\admin.py:6 .\blog\admin.py:7 .\blog\admin.py:8
+msgid "پنل مدیریت"
+msgstr "control panel"
+
+#: .\blog\apps.py:8
+msgid "وبلاگ"
+msgstr "weblog"
+
+#: .\blog\forms.py:9
+msgid "پیشنهاد"
+msgstr "Proposal"
+
+#: .\blog\forms.py:10
+msgid "انتقاد"
+msgstr "Criticism"
+
+#: .\blog\forms.py:11
+msgid "گزارش"
+msgstr "Report"
+
+#: .\blog\forms.py:13 .\blog\models.py:71 .\blog\models.py:87
+msgid "نام"
+msgstr "name"
+
+#: .\blog\forms.py:15 .\blog\models.py:33 .\blog\models.py:72
+#: .\blog\models.py:88 .\blog\models.py:116
+msgid "توضیحات"
+msgstr "description"
+
+#: .\blog\forms.py:16 .\blog\models.py:73
+msgid "ایمیل"
+msgstr "email"
+
+#: .\blog\forms.py:18 .\blog\models.py:74
+msgid "شماره تلفن"
+msgstr "phone number"
+
+#: .\blog\forms.py:20 .\blog\models.py:75
+msgid "موضوع"
+msgstr "subject"
+
+#: .\blog\forms.py:26
+msgid "شماره تلفن عددی نیست"
+msgstr "The phone number is not numeric"
+
+#: .\blog\forms.py:62 .\blog\forms.py:77
+msgid "تصویر اول"
+msgstr "first picture"
+
+#: .\blog\forms.py:63 .\blog\forms.py:78
+msgid "تصویر دوم"
+msgstr "second picture"
+
+#: .\blog\forms.py:93 .\blog\forms.py:119
+msgid "پسورد"
+msgstr "password"
+
+#: .\blog\forms.py:95
+msgid "تکرار پسورد"
+msgstr "repeat password"
+
+#: .\blog\forms.py:117
+msgid "نام کاربری"
+msgstr "Username"
+
+#: .\blog\models.py:31
+msgid "نویسنده"
+msgstr "author"
+
+#: .\blog\models.py:32 .\blog\models.py:115
+#: .\blog\templates\blog\profile.html:93
+msgid "عنوان"
+msgstr "title"
+
+#: .\blog\models.py:34
+msgid "اسلاگ"
+msgstr "slug"
+
+#: .\blog\models.py:35 .\blog\templates\blog\profile.html:94
+msgid "تاریخ انتشار"
+msgstr "publish"
+
+#: .\blog\models.py:36 .\blog\models.py:89
+msgid "تاریخ ایجاد"
+msgstr "created"
+
+#: .\blog\models.py:37 .\blog\models.py:90
+msgid "تاریخ ویرایش"
+msgstr "updated"
+
+#: .\blog\models.py:38
+msgid "زمان مطالعه"
+msgstr "reading_time"
+
+#: .\blog\models.py:39 .\blog\models.py:91
+#: .\blog\templates\blog\profile.html:95
+msgid "وضعیت"
+msgstr "status"
+
+#: .\blog\models.py:40 .\blog\templates\blog\post_list.html:85
+msgid "دسته بندی"
+msgstr "category"
+
+#: .\blog\models.py:50 .\blog\models.py:86 .\blog\models.py:112
+msgid "پست"
+msgstr "post"
+
+#: .\blog\models.py:51
+msgid "پست ها"
+msgstr "posts"
+
+#: .\blog\models.py:78
+msgid "تیکت"
+msgstr "ticket"
+
+#: .\blog\models.py:79
+msgid "تیکت ها"
+msgstr "tickets"
+
+#: .\blog\models.py:100
+msgid "کامنت"
+msgstr "comment"
+
+#: .\blog\models.py:101
+msgid "کامنت ها"
+msgstr "comments"
+
+#: .\blog\models.py:114 .\blog\models.py:126 .\blog\models.py:148
+msgid "تصویر"
+msgstr "image"
+
+#: .\blog\models.py:117
+msgid "زمان ایجاد"
+msgstr "created"
+
+#: .\blog\models.py:127
+msgid "تصویر ها"
+msgstr "images"
+
+#: .\blog\models.py:143
+msgid "کاربر"
+msgstr "User"
+
+#: .\blog\models.py:144
+msgid "تاریخ تولد"
+msgstr "date of birth"
+
+#: .\blog\models.py:145
+msgid "بایوگرافی"
+msgstr "biography"
+
+#: .\blog\models.py:146
+msgid "شغل"
+msgstr "job"
+
+#: .\blog\models.py:153
+msgid "اکانت"
+msgstr "account"
+
+#: .\blog\models.py:154
+msgid "اکانت ها"
+msgstr "accounts"
+
+#: .\blog\templates\blog\index.html:29
+msgid "تکنولوژی و برنامه نویسی"
+msgstr "Technology and programming"
+
+#: .\blog\templates\blog\index.html:44
+msgid "آخرین مقالات"
+msgstr "Latest articles"
+
+#: .\blog\templates\blog\index.html:51 .\blog\templates\blog\post_list.html:129
+msgid "مشاهده همه"
+msgstr "view all"
+
+#: .\blog\templates\blog\index.html:64
+msgid "محبوب ترین مقالات"
+msgstr "Most popular articles"
+
+#: .\blog\templates\blog\post_detail.html:44
+msgid "با"
+msgstr "with"
+
+#: .\blog\templates\blog\post_detail.html:50
+msgid "دقیقه"
+msgstr "minutes"
+
+#: .\blog\templates\blog\post_detail.html:109
+msgid "دیدگاه"
+msgstr "point of view"
+
+#: .\blog\templates\blog\post_detail.html:125
+msgid "کامنتی وجود ندارد!"
+msgstr "There are no comments!"
+
+#: .\blog\templates\blog\post_detail.html:132
+msgid "ثبت دیدگاه"
+msgstr "Register a comment"
+
+#: .\blog\templates\blog\post_detail.html:137
+msgid "ثبت"
+msgstr "Record"
+
+#: .\blog\templates\blog\post_detail.html:150
+msgid "دسته بندی ها"
+msgstr "categories"
+
+#: .\blog\templates\blog\post_detail.html:152
+#: .\blog\templates\blog\post_list.html:91
+#: .\blog\templates\partials\footer.html:24
+#: .\blog\templates\partials\footer.html:43
+msgid "برنامه نویسی وبسایت"
+msgstr "Web programming"
+
+#: .\blog\templates\blog\post_detail.html:155
+#: .\blog\templates\blog\post_list.html:99
+#: .\blog\templates\partials\footer.html:26
+#: .\blog\templates\partials\footer.html:45
+msgid "طراحی وبسایت"
+msgstr "Web Design"
+
+#: .\blog\templates\blog\post_detail.html:158
+#: .\blog\templates\blog\post_list.html:107
+#: .\blog\templates\partials\footer.html:28
+#: .\blog\templates\partials\footer.html:47
+msgid "برنامه نویسی موبایل"
+msgstr "Mobile programming"
+
+#: .\blog\templates\blog\post_detail.html:161
+#: .\blog\templates\blog\post_list.html:115
+#: .\blog\templates\partials\footer.html:30
+#: .\blog\templates\partials\footer.html:49
+msgid "هوش مصنوعی"
+msgstr "Artificial intelligence"
+
+#: .\blog\templates\blog\post_detail.html:164
+#: .\blog\templates\blog\post_list.html:123
+#: .\blog\templates\partials\footer.html:31
+#: .\blog\templates\partials\footer.html:51
+msgid "سایر"
+msgstr "other"
+
+#: .\blog\templates\blog\post_list.html:24
+msgid "لیست پست های"
+msgstr "List of posts"
+
+#: .\blog\templates\blog\post_list.html:26
+#: .\blog\templates\partials\footer.html:14
+msgid "لیست پست ها"
+msgstr "List of posts"
+
+#: .\blog\templates\blog\post_list.html:63
+msgid "توسط"
+msgstr "By"
+
+#: .\blog\templates\blog\post_list.html:138
+msgid "پربحث ترین ها"
+msgstr "The most controversial"
+
+#: .\blog\templates\blog\profile.html:24
+msgid "منوی کاربری"
+msgstr "User Menu"
+
+#: .\blog\templates\blog\profile.html:26
+msgid "ایجاد پست جدید"
+msgstr "Create a new post"
+
+#: .\blog\templates\blog\profile.html:39
+#: .\blog\templates\registration\password_change_form.html:11
+#: .\blog\templates\registration\password_change_form.html:24
+#: .\blog\templates\registration\password_reset_confirm.html:25
+msgid "تغییر پسورد"
+msgstr "change pass"
+
+#: .\blog\templates\blog\profile.html:51
+msgid "تغییر اطلاعات شخصی"
+msgstr "Change personal"
+
+#: .\blog\templates\blog\profile.html:63
+#: .\blog\templates\registration\logged_out.html:16
+msgid "خروج"
+msgstr "Exit"
+
+#: .\blog\templates\blog\profile.html:76 .\blog\templates\forms\ticket.html:25
+#: .\blog\templates\partials\footer.html:16
+msgid "ارسال تیکت"
+msgstr "Send ticket"
+
+#: .\blog\templates\blog\profile.html:92
+msgid "ردیف"
+msgstr "Row"
+
+#: .\blog\templates\blog\profile.html:96
+msgid "عملیات"
+msgstr "the operation"
+
+#: .\blog\templates\blog\profile.html:127
+#: .\blog\templates\forms\image_delete.html:16
+#: .\blog\templates\forms\post_delete.html:16
+msgid "حذف"
+msgstr "Delete"
+
+#: .\blog\templates\blog\profile.html:132
+msgid "ویرایش"
+msgstr "Edit"
+
+#: .\blog\templates\blog\search.html:10
+msgid "نتایج جستجو برای"
+msgstr "Search results for"
+
+#: .\blog\templates\blog\search.html:11
+msgid "نتیجه"
+msgstr "Result"
+
+#: .\blog\templates\blog\search.html:28
+msgid "هیچ نتیجه ای یافت نشد"
+msgstr "No results found"
+
+#: .\blog\templates\forms\comment.html:10
+#, fuzzy
+#| msgid "کامنت شما ثبت شد"
+msgid "کامنت شما ثبت شد"
+msgstr "Your comment has been registered"
+
+#: .\blog\templates\forms\comment.html:12
+msgid "بازگشت به پست"
+msgstr "Return to post"
+
+#: .\blog\templates\forms\comment.html:18
+msgid "افزودن کامنت"
+msgstr "Add comment"
+
+#: .\blog\templates\forms\image_delete.html:8
+msgid "آیا از حذف تصویر مطمعن هستید؟"
+msgstr "Are you sure you want to delete the image?"
+
+#: .\blog\templates\forms\image_delete.html:10
+#: .\blog\templates\forms\post_delete.html:10
+#: .\blog\templates\registration\logged_out.html:10
+msgid "برگشت به صفحه پروفایل"
+msgstr "Back to the profile page"
+
+#: .\blog\templates\forms\post_create.html:11
+#: .\blog\templates\forms\post_create.html:28
+#: .\blog\templates\partials\footer.html:17
+msgid "ایجاد پست"
+msgstr "Create a new post"
+
+#: .\blog\templates\forms\post_delete.html:8
+msgid "آیا از حذف پست مطمعن هستید؟"
+msgstr "?Are you sure you want to delete the post"
+
+#: .\blog\templates\forms\post_update.html:11
+#: .\blog\templates\forms\post_update.html:43
+msgid "ویرایش پست"
+msgstr "Edit post"
+
+#: .\blog\templates\forms\ticket.html:10
+msgid "ارسال تیکت به پشتیبانی"
+msgstr "Submit a ticket to support"
+
+#: .\blog\templates\partials\footer.html:10
+msgid "لینک های مفید"
+msgstr "Useful links"
+
+#: .\blog\templates\partials\footer.html:15
+#: .\blog\templates\partials\header.html:32
+msgid "داشبورد"
+msgstr "Dashboard"
+
+#: .\blog\templates\partials\footer.html:40
+msgid "پربیننده ترین"
+msgstr "Most viewed"
+
+#: .\blog\templates\partials\footer.html:57
+msgid "شبکه های اجتماعی"
+msgstr "Social Networks"
+
+#: .\blog\templates\partials\footer.html:60
+msgid "فیسبوک"
+msgstr "Facebook"
+
+#: .\blog\templates\partials\footer.html:62
+msgid "تویتر"
+msgstr "Twitter"
+
+#: .\blog\templates\partials\footer.html:64
+msgid "لینکدین"
+msgstr "LinkedIn"
+
+#: .\blog\templates\partials\footer.html:66
+msgid "یوتیوب"
+msgstr "Youtube"
+
+#: .\blog\templates\partials\header.html:10
+#: .\blog\templates\partials\header.html:11
+msgid "وبسایت مجله"
+msgstr "MagazineWebsite"
+
+#: .\blog\templates\partials\header.html:19
+msgid "زبان"
+msgstr "language"
+
+#: .\blog\templates\partials\header.html:21
+msgid "انگلیسی"
+msgstr "English"
+
+#: .\blog\templates\partials\header.html:22
+msgid "فارسی"
+msgstr "Persian"
+
+#: .\blog\templates\partials\header.html:29
+msgid "صفحات"
+msgstr "Pages"
+
+#: .\blog\templates\partials\header.html:31
+msgid "صفحه اصلی"
+msgstr "Main Page"
+
+#: .\blog\templates\partials\header.html:33
+msgid "لیست مقالات"
+msgstr "List of articles"
+
+#: .\blog\templates\partials\header.html:57
+msgid "روشن"
+msgstr "Bright"
+
+#: .\blog\templates\partials\header.html:69
+msgid "تیره"
+msgstr "dark"
+
+#: .\blog\templates\partials\header.html:80
+msgid "خودکار"
+msgstr "Automatically"
+
+#: .\blog\templates\partials\header.html:92
+#: .\blog\templates\registration\login.html:11
+#: .\blog\templates\registration\login.html:25
+#: .\blog\templates\registration\password_reset_complete.html:9
+#: .\blog\templates\registration\register_done.html:9
+msgid "ورود"
+msgstr "Login"
+
+#: .\blog\templates\partials\header.html:93
+#: .\blog\templates\registration\register.html:11
+#: .\blog\templates\registration\register.html:24
+msgid "ثبت نام"
+msgstr "Register"
+
+#: .\blog\templates\partials\header.html:104
+#: .\blog\templates\partials\header.html:106
+msgid "جستجو"
+msgstr "Search"
+
+#: .\blog\templates\partials\pagination.html:8
+msgid "قبل"
+msgstr "Before"
+
+#: .\blog\templates\partials\pagination.html:42
+msgid "بعد"
+msgstr "Next"
+
+#: .\blog\templates\registration\edit_account.html:11
+msgid "ویرایش اطلاعات شخصی"
+msgstr "Edit personal information"
+
+#: .\blog\templates\registration\edit_account.html:25
+msgid "ویرایش اطلاعات"
+msgstr "Editing information"
+
+#: .\blog\templates\registration\logged_out.html:8
+msgid "آیا مطمعن هستید که میخواهید خارج شوید؟"
+msgstr "?Are you sure you want to exit"
+
+#: .\blog\templates\registration\login.html:27
+msgid "آیا رمز خود را فراموش کرده اید؟"
+msgstr "?Have you forgotten your password"
+
+#: .\blog\templates\registration\password_change_done.html:7
+msgid "تغییر پسورد با موفقیت انجام شد"
+msgstr "The password has been changed successfully"
+
+#: .\blog\templates\registration\password_change_done.html:9
+msgid "برگشت به پروفایل"
+msgstr "Back to the profile page"
+
+#: .\blog\templates\registration\password_reset_complete.html:7
+msgid "پسورد شما با موفقیت تغییر پیدا کرد"
+msgstr "Your password has been successfully changed"
+
+#: .\blog\templates\registration\password_reset_confirm.html:12
+msgid "گذرواژه جدید را وارد کنید"
+msgstr "Enter the new password"
+
+#: .\blog\templates\registration\password_reset_confirm.html:36
+msgid "لینک تغییر پسورد شما معتبر نیست"
+msgstr "Your password change link is not valid"
+
+#: .\blog\templates\registration\password_reset_done.html:7
+msgid "لینک تغییر پسورد برای شما ارسال شد. لطفا ایمیل خود را بررسی کنید"
+msgstr "The password change link has been sent to you. Please check your email"
+
+#: .\blog\templates\registration\password_reset_email.html:2
+msgid "شما درخواست تغییر پسورد خود را برای ایمیل و یوزرنیم زیر انجام داد اید"
+msgstr ""
+"You have requested to change your password for the email and username below"
+
+#: .\blog\templates\registration\password_reset_email.html:5
+msgid ""
+"در صورتی که شما درخواست تغییر پسورد را نکرده اید، این پیام را نادیده بگیرید"
+msgstr "If you have not requested a password change, ignore this message"
+
+#: .\blog\templates\registration\password_reset_form.html:11
+msgid "ایمیل خود را وارد کنید"
+msgstr "Enter your email"
+
+#: .\blog\templates\registration\password_reset_form.html:24
+msgid "ارسال ایمیل"
+msgstr "Send email"
+
+#: .\blog\templates\registration\register_done.html:7
+msgid "گرامی ثبت نام شما با موفقیت انجام شد"
+msgstr "Your registration has been successfully completed"

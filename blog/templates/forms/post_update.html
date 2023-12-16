@@ -1,0 +1,71 @@
+{% extends 'parent/base.html' %}
+{% load i18n %}
+{% load static %}
+ {% block title %}post update{% endblock %}
+{% block content %}
+    <section class="py-4">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12">
+                    <!-- Title -->
+                    <h1 class="mb-0 h3">{% trans 'ویرایش پست' %}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Chart START -->
+                    <div class="card border h-100">
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <!-- Form START -->
+                            <form method="post" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-12">
+                                        {% csrf_token %}
+                                        {{ form.as_p }}
+                                        {% if post %}
+                                            {% for img in post.images.all %}
+                                                <div class="row align-items-center mb-2">
+                                                <div class="col-4 col-md-2">
+                                                    <div class="position-relative">
+                                                        <img class="rounded mb-3" src="{{ img.image_file.url }}" alt="">
+                                                        <div class="position-absolute top-0 end-0 mt-n2 me-n2">
+                                                            <a class="btn btn-icon btn-xs btn-danger"
+                                                               href="{% url 'blog:image_delete' img.id %}">
+                                                                <i class="bi bi-x"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        {% endif %}
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">{% trans 'ویرایش پست' %}</button>
+                                </div>
+                            </form>
+                            <!-- Form END -->
+                        </div>
+                    </div><!-- Chart END -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- Vendors -->
+    <script src="{% static 'vendor/apexcharts/js/apexcharts.min.js' %}"></script>
+    <script src="{% static 'vendor/quill/js/quill.min.js' %}"></script>
+    <!-- Template Functions -->
+    <script src="{% static 'js/functions.js' %}"></script>
+    <!-- Btn Upload -->
+    <script>
+        document.querySelector(".upload-button").addEventListener("click", () => {
+            //clicks on the file input
+            document.querySelector(".hidden-upload").click();
+        });
+        //adds event listener on the hidden file input to listen for any changes
+        document.querySelector(".hidden-upload").addEventListener("change", (event) => {
+            //gets the file name
+            document.querySelector(".upload-name").value = event.target.files[0].name;
+        });
+    </script>
+{% endblock %}

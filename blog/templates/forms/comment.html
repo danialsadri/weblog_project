@@ -1,0 +1,25 @@
+{% extends 'parent/base.html' %}
+{% load jformat %}
+{% load static %}
+{% load i18n %}
+{% block title %}post comment{% endblock %}
+
+{% block content %}
+    {% if comment %}
+        <div class="centered mb-4 text-center">
+            <h2 class="h1 m-0">{% trans 'کامنت شما ثبت شد' %}</h2>
+            <br>
+            <a href="{{ post.get_absolute_url }}" class="btn btn-dark mb-0">{% trans 'بازگشت به پست' %}</a>
+        </div>
+    {% else %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="{% trans 'افزودن کامنت' %}">
+        </form>
+    {% endif %}
+    <!-- Bootstrap JS -->
+    <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- Template Functions -->
+    <script src="{% static 'js/functions.js' %}"></script>
+{% endblock %}

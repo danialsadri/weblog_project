@@ -1,0 +1,72 @@
+{% load i18n %}
+{% load static %}
+<footer class="pb-0">
+    <div class="container">
+        <hr>
+        <!-- Widgets START -->
+        <div class="row pt-5">
+            <!-- Footer Widget -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h5 class="mb-4">{% trans 'لینک های مفید' %}</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link pt-0" href="{% url 'blog:post_list' %}">{% trans 'لیست پست ها' %}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'blog:profile' %}">{% trans 'داشبورد' %}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'blog:ticket' %}">{% trans 'ارسال تیکت' %}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'blog:post_create' %}">{% trans 'ایجاد پست' %}</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link pt-0" href="{% url 'blog:post_list_category' 'برنامه-نویسی-وب' %}">{% trans 'برنامه نویسی وبسایت' %}</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'blog:post_list_category' 'طراحی-وبسایت' %}">{% trans 'طراحی وبسایت' %}</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'blog:post_list_category' 'برنامه-نویسی-موبایل' %}">{% trans 'برنامه نویسی موبایل' %}</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'blog:post_list_category' 'هوش-مصنوعی' %}">{% trans 'هوش مصنوعی' %}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'blog:post_list_category' 'سایر' %}">{% trans 'سایر' %}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Widget -->
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <h5 class="mb-4">{% trans 'پربیننده ترین' %}</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="{% url 'blog:post_list_category' 'برنامه-نویسی-وب' %}" class="btn btn-sm btn-primary-soft">{% trans 'برنامه نویسی وبسایت' %}</a></li>
+                    <li class="list-inline-item">
+                        <a href="{% url 'blog:post_list_category' 'طراحی-وبسایت' %}" class="btn btn-sm btn-success-soft">{% trans 'طراحی وبسایت' %}</a></li>
+                    <li class="list-inline-item">
+                        <a href="{% url 'blog:post_list_category' 'برنامه-نویسی-موبایل' %}" class="btn btn-sm btn-warning-soft">{% trans 'برنامه نویسی موبایل' %}</a> </li>
+                    <li class="list-inline-item">
+                        <a href="{% url 'blog:post_list_category' 'هوش-مصنوعی' %}" class="btn btn-sm btn-danger-soft">{% trans 'هوش مصنوعی' %}</a></li>
+                    <li class="list-inline-item">
+                        <a href="{% url 'blog:post_list_category' 'سایر' %}" class="btn btn-sm btn-info-soft">{% trans 'سایر' %}</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Widget -->
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <h5 class="mb-4">{% trans 'شبکه های اجتماعی' %}</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link pt-0" href="#"><i
+                            class="fab fa-facebook-square fa-fw me-2 text-facebook"></i>{% trans 'فیسبوک' %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i
+                            class="fab fa-twitter-square fa-fw me-2 text-twitter"></i>{% trans 'تویتر' %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i
+                            class="fab fa-linkedin fa-fw me-2 text-linkedin"></i>{% trans 'لینکدین' %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i
+                            class="fab fa-youtube-square fa-fw me-2 text-youtube"></i>{% trans 'یوتیوب' %}</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Widgets END -->
+    </div>
+</footer>
