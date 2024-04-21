@@ -3,10 +3,10 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 from django.utils.text import slugify
-from django_jalali.db import models as jmodels
-from jdatetime import datetime
-from django_resized import ResizedImageField
 from django.utils.translation import gettext_lazy as _
+from django_jalali.db import models as jmodels
+from django_resized import ResizedImageField
+from jdatetime import datetime
 
 
 class PublishedManager(models.Manager):

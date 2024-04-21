@@ -1,11 +1,6 @@
 from django.contrib import admin
-from .models import *
 from django_jalali.admin.filters import JDateFieldListFilter
-from django.utils.translation import gettext_lazy as _
-
-admin.sites.AdminSite.site_title = _('پنل مدیریت')
-admin.sites.AdminSite.site_header = _('پنل مدیریت')
-admin.sites.AdminSite.index_title = _('پنل مدیریت')
+from .models import *
 
 
 class CommentInline(admin.StackedInline):
